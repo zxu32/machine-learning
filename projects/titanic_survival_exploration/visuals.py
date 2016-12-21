@@ -2,7 +2,7 @@
 # Suppress matplotlib user warnings
 # Necessary for newer version of matplotlib
 import warnings
-warnings.filterwarnings("ignore", category = UserWarning, module = "matplotlib")
+warnings.filterwarnings("ignore", category=UserWarning, module="matplotlib")
 #
 # Display inline matplotlib plots with IPython
 from IPython import get_ipython
